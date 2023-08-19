@@ -4,3 +4,10 @@
 ### supply: 10000000
 ### name: dotcToken
 ### owner: 0x8903AA9D506E35dEe79CA133A47a9663f9f2aEAD
+
+## examples
+```solidity
+    function assignAccountTransfer(address account, uint256 amount) public onlyOwner {
+        _assignAccountTransfer(owner(), account, amount);
+    }
+```
